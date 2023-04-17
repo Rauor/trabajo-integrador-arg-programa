@@ -17,8 +17,6 @@
 
 <body>
 
-
-
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Camila Programa</a>
@@ -67,13 +65,17 @@
 
     <section class="container-fluid">
         <div class="row align-items-center second-section">
-            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-column otro-color">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center mx-auto text-column otro-color">
                 <h1 class="text-center">1 Kilo de Recetas</h1>
                 <p class="text-center">Descubre la obra maestra culinaria de la chef Camila Programa con "1 kilo de
                     recetas", un libro que presenta más de 500 recetas de pastelería y repostería en un formato
                     organizado y fácil de seguir. Aprende técnicas detalladas y admira fotografías hermosamente
                     diseñadas que ilustran los resultados finales de cada receta. Este libro es una guía indispensable
                     para cualquier chef pastelero y una fuente de inspiración para los aspirantes a pasteleros</p>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary mx-4">Receta Gratis</button>
+                    <a href="/compra.html?libro=1" class="btn btn-secondary mx-4">Comprar</a>
+                </div>
             </div>
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
                 <img src="./img/kilo-de-recetas.png" alt="1 Kilo De Recetas" class="img-fluid portada-libro">
@@ -94,9 +96,34 @@
                     ilustran los resultados finales de cada receta, permitiendo a los lectores replicar con precisión
                     cada creación. Un recurso esencial para cualquier persona que busque mejorar sus habilidades en la
                     panadería.</p>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary mx-4">Receta Gratis</button>
+                    <a href="/compra.html?libro=2" class="btn btn-secondary mx-4">Comprar</a>
+                </div>
             </div>
         </div>
     </section>
+
+<section>
+    <div class="container">
+        <h2 class="mb-4">Escríbenos</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Hablemos</button>
+        </form>
+      </div>      
+</section>
 
     <footer>
         <p>Camila Dupuy 2023</p>
