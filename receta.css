@@ -1,9 +1,9 @@
 .navbar {
     background-color: #3f3f3f;
     position: fixed;
-    /* establece la posición fija de la barra de navegación */
+    /*posición fija de la barra de navegación */
     top: 0;
-    /* ajusta la posición vertical de la barra de navegación */
+    /*posición vertical de la barra de navegación */
     width: 100%;
     height: 6%;
 }
