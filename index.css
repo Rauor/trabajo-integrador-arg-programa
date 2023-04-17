@@ -54,3 +54,7 @@ footer {
 .container {
     color: #f7f7f7;
 }
+
+.text-center {
+    font-family: 'Spectral', serif;
+}
