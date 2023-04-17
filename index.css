@@ -2,16 +2,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-image: url(fondos/hojas\ negras.jpg);
+    background-color: #f7f7f7;
+    background-size: auto;
+}
+
 .navbar-custom {
+    background-image: url(fondos/Negro\ círculo.jpg);
     background-color: #ffffff;
+    color: antiquewhite;
 }
 
 .first-section {
     background-color: rgb(190, 162, 129);
+    background-image: url(fondos/negro\ dorado\ triangulos.jpg);
 }
 
 .second-section {
     background-color: rgb(212, 212, 212);
+    background-image: url(fondos/negro\ dorado\ costado.jpg);
 }
 
 .camila-foto {
@@ -31,11 +41,16 @@
 }
 
 .otro-color {
-    color: rgb(190, 162, 129);
+    color: rgb(255, 255, 255);
 }
 
 footer {
-    background-color: #f2f2f2;
+    background-color: #1d1b1b;
+    color: antiquewhite;
     padding: 20px;
     text-align: center;
+}
+
+.container {
+    color: #f7f7f7;
 }
