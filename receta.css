@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #3f3f3f;
+    position: fixed;
+    /* establece la posición fija de la barra de navegación */
+    top: 0;
+    /* ajusta la posición vertical de la barra de navegación */
+    width: 100%;
+    height: 6%;
+}
+
+
+body {
+    background-image: url(fondos/5591275.jpg);
+    background-color: #f7f7f7;
+    background-size: cover;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: auto;
+}
+
+.title {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 10rem;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ingredients {
+    grid-column: 2 / 1;
+    grid-row: 2 / 2;
+    padding: 2rem;
+    border: 4px solid #e9a8c9;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    margin-right: 20px;
+}
+
+.t2 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    font-size: 25px;
+
+}
+
+ol {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.linotas {
+    font-size: 20px;
+}
+
+.steps {
+    width: 80%;
+    margin-right: 500%;
+    margin-left: 20px;
+}
+
+.slider {
+    width: 328%;
+    height: 25%;
+    float: right;
+}
+
+.slider img {
+    width: 330px;
+    height: 80%;
+}
+
+.notes {
+    margin-left: 300px;
+    width: 90%;
+    height: 50px;
+}
+
